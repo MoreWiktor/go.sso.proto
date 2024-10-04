@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	Auth_Signin_FullMethodName = "/auth.Auth/Signin"
+	Auth_Signin_FullMethodName = "/Auth.Auth/Signin"
 )
 
 // AuthClient is the client API for Auth service.
@@ -108,7 +108,7 @@ func _Auth_Signin_Handler(srv interface{}, ctx context.Context, dec func(interfa
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var Auth_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "auth.Auth",
+	ServiceName: "Auth.Auth",
 	HandlerType: (*AuthServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
